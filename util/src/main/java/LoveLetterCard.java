@@ -2,7 +2,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @AllArgsConstructor
-public enum Card {
+public enum LoveLetterCard{
     GUARD("Guard", 1, "Name a non-Guard card and choose another player. If that player has that card, he or she is out of the round."),
     PRIEST("Priest", 2, "Look at another player's hand."),
     BARON("Baron", 3, "You and another player secretly compare hands. The player with the lower value is out of the round."),
